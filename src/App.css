@@ -1,0 +1,72 @@
+/* App.css: Custom Desktop Device Frame Wrapper & Core Transitions */
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-height: 100dvh;
+  width: 100vw;
+  background-color: #faf6f0;
+}
+
+/* On desktops, embed the app in an elegant floating smartphone frame */
+@media (min-width: 768px) {
+  .app-container {
+    background: radial-gradient(circle at top right, #fdfbf7 0%, #faf6f0 40%, #f5e4e4 100%);
+    padding: 2rem;
+  }
+
+  .mobile-frame {
+    width: 410px;
+    height: 840px;
+    border-radius: 48px;
+    border: 10px solid #ffffff;
+    box-shadow: 0 30px 70px -10px rgba(143, 79, 88, 0.22),
+                0 0 0 2px rgba(229, 169, 169, 0.2),
+                0 4px 10px rgba(0, 0, 0, 0.05);
+    background-color: #faf6f0;
+    overflow: hidden;
+    position: relative;
+    transform: scale(0.95);
+    transition: all 0.5s ease;
+  }
+
+  /* Decorative speaker/camera notch for the desktop frame */
+  .mobile-frame::before {
+    content: '';
+    position: absolute;
+    top: 14px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 110px;
+    height: 24px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    z-index: 50;
+    box-shadow: inset 0 -2px 6px rgba(143, 79, 88, 0.05);
+  }
+}
+
+@media (max-width: 767px) {
+  .mobile-frame {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+}
+
+/* Quick utility for smooth slide transitions */
+.screen-slide-container {
+  display: flex;
+  width: 400%; /* 4 screens */
+  height: 100%;
+  transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.screen-slide-panel {
+  width: 25%;
+  height: 100%;
+  flex-shrink: 0;
+}
