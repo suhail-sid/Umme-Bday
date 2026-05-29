@@ -83,7 +83,7 @@ export default function CustomAudioPlayer() {
         </button>
 
         <div className="flex-1 min-w-0">
-          <p className="text-sm font-bold text-berry truncate">Lo Apna gana Sun lo🎧</p>
+          <p className="text-sm font-bold text-berry truncate">Lo Apna paglappan Sun lo🎧</p>
 
           <div className="h-6 flex items-center gap-1 mt-1.5 overflow-hidden">
             {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15].map((bar) => {
