@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import ScreenWrapper from './ScreenWrapper';
-import video from '../assets/v1.mp4';
+import video from '../assets/V1.mp4';
 
 export default function VideoMessageScreen({ isActive, onNext }) {
   const [isPlaying, setIsPlaying] = useState(false);
