@@ -19,7 +19,6 @@ export default function VideoMessageScreen({ isActive, onNext }) {
       }
     }
   };
-
   return (
     <ScreenWrapper isActive={isActive} className="overflow-y-auto hide-scrollbar">
 
