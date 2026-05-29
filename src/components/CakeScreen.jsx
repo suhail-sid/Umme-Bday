@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import ScreenWrapper from './ScreenWrapper';
 import Cake from './Cake';
-import p1 from '../assets/p1.jpg'
-import p2 from '../assets/p2.jpg'
+import p1 from '../assets/p1.JPG'
+import p2 from '../assets/p2.JPG'
 export default function CakeScreen({ isActive, onNext }) {
   const [isBlown, setIsBlown] = useState(false);
   const [confetti, setConfetti] = useState([]);
