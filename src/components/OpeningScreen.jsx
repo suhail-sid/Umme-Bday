@@ -1,5 +1,5 @@
 import React from 'react';
-import teePhoto from "../assets/tee-photo.jpeg"
+import teePhoto from "../assets/tee-photo.jpg"
 import ScreenWrapper from './ScreenWrapper';
 
 export default function OpeningScreen({ isActive, onNext }) {
@@ -8,7 +8,7 @@ export default function OpeningScreen({ isActive, onNext }) {
 
       <div className="w-full text-center mt-2 mb-4 animate-fade-in opacity-80 z-20">
         <span className="text-xs uppercase tracking-[0.2em] font-medium text-berry-light bg-blush-light/60 px-3 py-1 rounded-full border border-blush/20">
-          From a bauna to his bauni ❤️‍🩹
+          From KALLU to his Puchuu ❤️‍🩹
         </span>
       </div>
 
@@ -16,7 +16,7 @@ export default function OpeningScreen({ isActive, onNext }) {
 
         <div className="w-64 sm:w-72 bg-white rounded-2xl p-4 shadow-xl border border-blush-light/50 transform rotate-[-2deg] hover:rotate-0 transition-transform duration-500 animate-scale-in relative group z-10">
           <div className="absolute -top-3 -right-3 w-8 h-8 rounded-full bg-gradient-to-br from-amber-200 to-amber-500 shadow-md flex items-center justify-center border border-white/40 transform rotate-12 z-20">
-            <span className="text-[10px] text-amber-900 font-bold font-serif">Tee</span>
+            <span className="text-[10px] text-amber-900 font-bold font-serif">Gudda</span>
           </div>
 
           <div className="w-full aspect-[4/5] rounded-xl bg-gradient-to-tr from-champagne-dark via-blush-light to-champagne overflow-hidden border border-blush/10 relative flex items-center justify-center">
@@ -47,11 +47,11 @@ export default function OpeningScreen({ isActive, onNext }) {
 
         <div className="mt-8 text-center px-4 animate-slide-up max-w-sm">
           <h1 className="font-serif text-3xl sm:text-4xl text-berry-dark font-extrabold tracking-tight leading-tight text-glow">
-            Happy Birthday <span className="text-transparent bg-clip-text bg-gradient-to-r from-berry via-rose-accent to-berry-light">Tee</span>
+            Happy Birthday <span className="text-transparent bg-clip-text bg-gradient-to-r from-berry via-rose-accent to-berry-light">Gudda</span>
           </h1>
 
           <p className="mt-3.5 text-sm sm:text-base text-berry-light font-medium leading-relaxed italic">
-            "Be the Same Motu as you always were cutu putu"
+            ""
           </p>
         </div>
 

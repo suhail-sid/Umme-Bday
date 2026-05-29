@@ -81,7 +81,7 @@ export default function FinalScreen({ isActive }) {
           style={{ animationDelay: '0.8s' }}
         >
           <h3 className="font-serif text-2xl font-bold text-berry-dark italic text-glow gold-text-glow">
-            Happy Birthday again Tanu :)
+            Happy Birthday again Mera Kaleja :)
           </h3>
           <p className="text-[10px] text-rose-dusty tracking-widest uppercase mt-1">Have a spectacular year ahead!</p>
         </div>
