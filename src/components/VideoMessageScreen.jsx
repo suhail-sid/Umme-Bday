@@ -72,10 +72,10 @@ export default function VideoMessageScreen({ isActive, onNext }) {
           style={{ animationDelay: '0.3s' }}
         >
           <p className="font-serif italic text-lg text-berry-dark font-semibold leading-relaxed">
-            "Hope I made your special day a little more special Tee"
+            "I hope this memory made your day as bright as you make mine."
           </p>
           <p className="mt-2 text-xs sm:text-sm text-berry-light font-medium leading-relaxed">
-            Always your Little supporter ❤️
+            Forever by your side, loving you more each day. ❤️
           </p>
         </div>
 

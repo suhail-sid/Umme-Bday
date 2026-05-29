@@ -136,10 +136,10 @@ export default function CakeScreen({ isActive, onNext }) {
 
 
               <div className="text-center mt-1 px-1">
-                <p className="text-sm font-semibold text-berry-dark italic font-serif">"You hold a special place in my life..."</p>
+                <p className="text-sm font-semibold text-berry-dark italic font-serif">"You are one of the sweetest parts of my heart..."</p>
                 <p className="text-xs text-berry-light mt-2 leading-relaxed">
-                  Wishing you a day filled with the sweet warmth of happy smiles. May Allah Give you every happiness in your life..
-                  <br /> Always a Safed Dayan for me!❤
+                  May your birthday bring you endless smiles, gentle peace, and all the love your heart can hold.
+                  <br /> Always by your side, loving you more with every passing day.Meri Chimirkhi ❤
                 </p>
               </div>
 

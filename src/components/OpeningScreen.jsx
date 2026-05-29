@@ -40,8 +40,8 @@ export default function OpeningScreen({ isActive, onNext }) {
           </div>
 
           <div className="pt-4 pb-2 text-center">
-            <p className="font-serif italic text-lg text-red-600 font-semibold">Tee 💖</p>
-            <p className="text-[10px] text-red-600  tracking-widest uppercase mt-0.5">May 24th, 2026</p>
+            <p className="font-serif italic text-lg text-red-600 font-semibold">Puchuu 💖</p>
+            <p className="text-[10px] text-red-600  tracking-widest uppercase mt-0.5">May 30th, 2026</p>
           </div>
         </div>
 
