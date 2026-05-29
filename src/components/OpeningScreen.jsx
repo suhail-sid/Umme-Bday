@@ -1,5 +1,5 @@
 import React from 'react';
-import teePhoto from "../assets/tee-photo.JPG"
+import teePhoto from "../assets/tee-photo.jpg"
 import ScreenWrapper from './ScreenWrapper';
 
 export default function OpeningScreen({ isActive, onNext }) {
